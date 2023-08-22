@@ -113,5 +113,26 @@
       <jdbc-url>jdbc:mariadb://union-products-prod.cluster-ro-cyk5pq4nt7f3.ap-northeast-2.rds.amazonaws.com:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="mrt2.0 - local" uuid="e03e737f-40f9-4884-be32-aa8e51b6d7d8">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://mrt-development-v2.cluster-cfx99bgswf0v.ap-northeast-2.rds.amazonaws.com:5432/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="mrt2.0 - dev" uuid="3cd439b7-9fb4-498d-9791-0cb5967229b3">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://mrt-20-dev.cfx99bgswf0v.ap-northeast-2.rds.amazonaws.com:5432/d9d13bqsjtspnr</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="mrt2.0 - test" uuid="d7adb68b-f331-410e-bfc9-bbe4ed80ab3d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://mrt-20-test.cfx99bgswf0v.ap-northeast-2.rds.amazonaws.com:5432/d9d13bqsjtspnr</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
